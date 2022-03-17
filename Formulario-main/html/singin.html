@@ -1,0 +1,83 @@
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <form class="form-2">
+            <h1 class="top">Faça seu cadastro</h1>
+
+            <div class="box-first">
+                <label for="name" class="label-text-2">Nome completo</label>
+                <input type='text' id='name' class="text" placeholder='Digite seu nome completo' type=text title="Preencha o campo Nome"
+                required name=nome />
+
+            </div>
+            <div class="box-2">
+           <div>
+            <label for="date" class="comp">Data de Nascimento</label>
+            <input type="date" name="date" id="date" type=text title="Preencha o campo Nome"
+            required name=nome>
+
+           </div>
+          <div>
+            <label for="country" class="comp">País</label>
+            <select class="option" type=text title="Preencha o campo Nome"
+            required name=nome>
+                <option value="brasil">Brasil</option>
+                <option value="alemanha">Alemanha</option>
+                <option value="china">China</option>
+            </select>
+          </div>
+           
+            </div>
+            <label for="genero" class="genero-2">Gênero</label>
+            <div class="box-sex" type=text title="Preencha o campo Nome"
+            required name=nome>
+                <div class="femi">
+                    <input type="radio" name="radio" id="fem">
+                <label for="fem">feminino</label>
+                </div>
+                <div>
+                    <input type="radio" name="radio" id="mas">
+                <label for="mas">Masculino</label>
+                </div>
+               <div>
+                <input type="radio" name="radio" id="not">
+                <label for="not">Não Declarar</label>
+               </div>
+            </div>
+
+            <div class="e-mail-2">
+                <label for="email" class="label-text-2">e-mail</label>
+                <input type='text' id='email' class="text" placeholder='Digite seu e-mail' type=text title="Preencha o campo Nome"
+                required name=nome />
+
+            </div>
+            <div class="senha-2">
+                <label for="password" class="label-text-2">senha</label>
+                <input type="password" id="password" class="text" requiered placeholder="Crie uma senha" type=text title="Preencha o campo Nome"
+                required name=nome />
+
+            </div>
+            <div class="c-senha-2">
+                <label for="password" class="label-text-2">Comfirme sua senha</label>
+                <input type="password" id="password" class="text" requiered placeholder="Confirme senha" type=text title="Preencha o campo Nome"
+                required name=nome />
+
+            </div>
+
+            <div class="term">
+                <input type="checkbox" name="accept" id="accept">
+                <span class="priv"type=text title="Preencha o campo Nome"
+                required name=nome>Aceito os <a href="#" class="singin-link">Termos e condições</a> e concordo com as <a href="#" class="singin-link">Poíticas de privacidade</a> do Hall to code.</span>
+            </div>
+            <button type="submit" class="send">Cadastrar</button>
+            <span class="singin">
+    Já tem uma conta no Hall to code?
+   <a href="#" class="singin-link" class="send-2">Entre agora</a>
+</span>
+        </form>
+    </section>
+
+</body>
